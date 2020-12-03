@@ -10,14 +10,27 @@ hr {
 
 h1 {
   font-family: Anton;
+    font-size: 64px;
 }
 
 h2 {
     font-family: Anton;
+    font-size: 48px;
 }
 
 h3 {
     font-family: Anton;
+    font-size: 40px;
+}
+
+h4 {
+    font-family: Anton;
+    font-size: 32px;
+}
+
+h5 {
+    font-family: Anton;
+    font-size: 28px;
 }
 
 
