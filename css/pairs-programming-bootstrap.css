@@ -1,4 +1,83 @@
+body {
+    background-color: #e6e6e6;
+    font-family: Abel;
+}
+
+hr {
+    display: ;
+
+}
+
+h1 {
+  font-family: Anton;
+}
+
+h2 {
+    font-family: Anton;
+}
+
+h3 {
+    font-family: Anton;
+}
+
+
+
 .codeup {
     width: 105px;
     height: 105px;
+    position: absolute;
+    top: 25px;
+    left: calc(50% - 52px);
+}
+
+.whitebar {
+    height: 50px;
+    background-color: #f0f0f0;
+}
+
+.navbar {
+    background-color: #f0f0f0;
+    height: 50px;
+}
+
+.buffer {
+    height: 50px;
+
+}
+
+.maintitle {
+    font-family: Abel;
+}
+
+.button-big {
+    height: 105px;
+    width: 105px;
+    border: 5px solid #f0f0f0;
+    color: #f0f0f0;
+    font-weight: bold;
+}
+
+.button-little {
+    font-family: Anton;
+    height: 18px;
+    width: 18px;
+    font-size: 8px;
+    font-weight: bold;
+    border: none;
+}
+
+.design {
+    background-color: #e6563b;
+}
+
+.develop {
+    background-color: #eb9d3a;
+}
+
+.support {
+    background-color: #7cb06c;
+}
+
+.host {
+    background-color: #00aba9;
 }
