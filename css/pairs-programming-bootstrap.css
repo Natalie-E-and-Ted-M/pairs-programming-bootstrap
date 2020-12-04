@@ -1,12 +1,12 @@
 body {
-    background-color: #e6e6e6;
+    background-color: #f0f0f0;
     font-family: Abel;
 }
 
-hr {
-    display: ;
+/*hr {*/
+/*    display: ;*/
 
-}
+/*}*/
 
 h1 {
   font-family: Anton;
@@ -33,6 +33,10 @@ h5 {
     font-size: 28px;
 }
 
+h6 {
+    font-family: Anton;
+}
+
 
 
 .codeup {
@@ -43,29 +47,54 @@ h5 {
     left: calc(50% - 52px);
 }
 
-.whitebar {
-    height: 50px;
-    background-color: #f0f0f0;
+.codeup2 {
+    width: 105px;
+    height: 105px;
 }
 
-.navbar {
-    background-color: #f0f0f0;
+.whitebar {
     height: 50px;
+    background-color: #ffffff;
 }
+
+/*.navbar {*/
+/*    background-color: #f0f0f0;*/
+/*    height: 50px;*/
+/*}*/
 
 .buffer {
     height: 50px;
+    /*background-color: red;*/
+}
 
+.navbar {
+
+top: 20px;
 }
 
 .maintitle {
     font-family: Abel;
 }
 
+.maintitle2 {
+    font-family: Abel;
+}
+
+.menuitems {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttons-bar{
+max-width: 700px;
+margin: 0 auto;
+    }
+
 .button-big {
     height: 105px;
     width: 105px;
-    border: 5px solid #f0f0f0;
+    border: 5px solid #ffffff;
     color: #f0f0f0;
     font-weight: bold;
 }
@@ -94,3 +123,29 @@ h5 {
 .host {
     background-color: #00aba9;
 }
+
+.image {
+    border: 5px solid #e6e6e6;
+}
+
+.sm-image {
+    border: 2px solid #e6e6e6;
+}
+
+.fa-twitter {
+    color: #50abf1;
+    font-size: larger;
+}
+
+.twitter>p {
+    font-size: smaller;
+}
+
+.wholepage {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+/*.projects {*/
+/*    max-width: 1000px;*/
+/*    margin: 0 auto;*/
+/*}*/
