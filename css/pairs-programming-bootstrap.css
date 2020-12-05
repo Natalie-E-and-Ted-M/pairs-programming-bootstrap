@@ -85,6 +85,7 @@ top: 20px;
 
 .maintitle2 {
     font-family: Abel;
+    white-space: nowrap;
 }
 
 .menuitems {
@@ -92,6 +93,22 @@ top: 20px;
     justify-content: space-between;
     align-items: center;
 }
+
+.logoandname {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.firstmenu {
+    position: static;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    /*max-width: 380px;*/
+    align-self: center;
+}
+
 
 .buttons-bar{
 max-width: 700px;
@@ -133,6 +150,8 @@ margin: 0 auto;
 
 .image {
     border: 5px solid #e6e6e6;
+    max-width: 300px;
+    max-height: 200px;
 }
 
 .sm-image {
