@@ -3,6 +3,10 @@ body {
     font-family: Abel;
 }
 
+html, body {
+    overflow-x: hidden;
+}
+
 /*hr {*/
 /*    display: ;*/
 
@@ -55,6 +59,9 @@ h6 {
 .whitebar {
     height: 50px;
     background-color: #ffffff;
+    margin: 0 -9999rem;
+    /* add back negative margin value */
+    padding: 0.25rem 9999rem;
 }
 
 /*.navbar {*/
